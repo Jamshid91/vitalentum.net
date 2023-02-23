@@ -336,6 +336,92 @@
         }
     }
 }
+
+.detalis {
+    &-body {
+        padding: 10px;
+        margin: 30px 0 25px;
+        .user__img {
+            width: 40px;
+            height: 40px;
+            margin-right: 8px;
+        }
+        .user__by {
+            font-size: 14px;
+            span {
+                font-size: 14px;
+            }
+        }
+        .user__name {
+            font-size: 20px;
+        }
+        .tags {
+            padding: 24px 0;
+            &-list {
+                font-size: 14px;
+            }
+        }
+        .more-images {
+            &__title {
+                font-size: 16px;
+                margin-right: 10px;
+            }
+            &__link {
+                font-size: 14px;
+            }
+            &__img {
+                width: 49%;
+                margin-top: 10px;
+            }
+        }
+    }
+    .comments {
+
+        .post-comment {
+            .user__img {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+        }
+
+        .comment-user {
+            .user__img {
+                width: 36px;
+                height: 36px;
+                margin-right: 10px;
+            }
+            .user__name {
+                font-size: 14px;
+            }
+            .comment__text {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+        .reply-comment {
+            padding-left: 30px;
+        }
+    }
+    .download {
+        width: 65%;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .addLikeBtn {
+        padding: 12px 15px;
+    }
+    &-about {
+        &__text {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .image-details {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
 }
 
 
