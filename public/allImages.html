@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/style/plugins/bootstrap4.css">
+    <link rel="stylesheet" href="../assets/style/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row header-sup">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="header__logo">
+                            <img loading="lazy" src="../assets/imgs/png/logo.png" alt="" class="">
+                        </a>
+                        <div class="header-search position-relative d-none d-sm-flex">
+                            <input type="text" class="header-search__inp" placeholder="Search"> 
+                            <span class="search__btn position-absolute">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="6" fill="#191A30"/>
+                                    <path d="M11.6673 17.9997C15.1651 17.9997 18.0007 15.1641 18.0007 11.6663C18.0007 8.16853 15.1651 5.33301 11.6673 5.33301C8.16951 5.33301 5.33398 8.16853 5.33398 11.6663C5.33398 15.1641 8.16951 17.9997 11.6673 17.9997Z" stroke="#77778B" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path opacity="0.4" d="M18.6673 18.6663L17.334 17.333" stroke="#77778B" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="header-lang">
+                            <div class="avtive-lang d-flex align-items-center justify-content-center">
+                                <img loading="lazy" src="../assets/imgs/png/USA.png" alt="ru" class="">
+                            </div>
+                            <ul class="header-lang-item">
+                                <li class="">
+                                    <a href="#">
+                                        <img loading="lazy" src="../assets/imgs/png/USA.png" alt="usa" class="">
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        <img loading="lazy" src="../assets/imgs/png/russia.png" alt="rus" class="">
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        <img loading="lazy" src="../assets/imgs/png/france.png" alt="fr" class="">
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        <img loading="lazy" src="../assets/imgs/png/germany.png" alt="gr" class="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="header-item d-none d-xl-flex align-items-center">
+                            <li class="header-item__list"><a href="#" class="">VTL Token</a></li>
+                            <li class="header-item__list"><a href="#" class="">Abou Us</a></li>
+                            <li class="header-item__list"><a href="#" class="">Contacts</a></li>
+                        </ul>
+                        <a href="#" class="my-accounts d-none d-xl-flex align-items-center justify-content-center">
+                            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.87207 9C10.0812 9 11.8721 7.20914 11.8721 5C11.8721 2.79086 10.0812 1 7.87207 1C5.66293 1 3.87207 2.79086 3.87207 5C3.87207 7.20914 5.66293 9 7.87207 9Z" stroke="#F37A10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path opacity="0.4" d="M14.744 17.0004C14.744 13.9044 11.664 11.4004 7.87203 11.4004C4.07999 11.4004 1 13.9044 1 17.0004" stroke="#F37A10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            My Accounts
+                        </a>
+                        <div class="header-burger d-flex d-xl-none align-items-start justify-content-start">
+                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 1.625C0 1.02734 0.492188 0.5 1.125 0.5H14.625C15.2227 0.5 15.75 1.02734 15.75 1.625C15.75 2.25781 15.2227 2.75 14.625 2.75H1.125C0.492188 2.75 0 2.25781 0 1.625ZM2.25 7.25C2.25 6.65234 2.74219 6.125 3.375 6.125H16.875C17.4727 6.125 18 6.65234 18 7.25C18 7.88281 17.4727 8.375 16.875 8.375H3.375C2.74219 8.375 2.25 7.88281 2.25 7.25ZM14.625 14H1.125C0.492188 14 0 13.5078 0 12.875C0 12.2773 0.492188 11.75 1.125 11.75H14.625C15.2227 11.75 15.75 12.2773 15.75 12.875C15.75 13.5078 15.2227 14 14.625 14Z" fill="#A0AEBF"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-sm-none mt-3">
+                    <div class="header-search position-relative">
+                        <input type="text" class="header-search__inp" placeholder="Search"> 
+                        <span class="search__btn position-absolute">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="6" fill="#191A30"/>
+                                <path d="M11.6673 17.9997C15.1651 17.9997 18.0007 15.1641 18.0007 11.6663C18.0007 8.16853 15.1651 5.33301 11.6673 5.33301C8.16951 5.33301 5.33398 8.16853 5.33398 11.6663C5.33398 15.1641 8.16951 17.9997 11.6673 17.9997Z" stroke="#77778B" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path opacity="0.4" d="M18.6673 18.6663L17.334 17.333" stroke="#77778B" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                   <div class="header-links d-flex align-items-center">
+                    <a href="#" class="header-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z" fill="#77778B"/>
+                            <path d="M7.33011 15.24C7.17011 15.24 7.01011 15.19 6.87011 15.08C6.54011 14.83 6.48011 14.36 6.73011 14.03L9.11011 10.94C9.40011 10.57 9.81011 10.33 10.2801 10.27C10.7401 10.21 11.2101 10.34 11.5801 10.63L13.4101 12.07C13.4801 12.13 13.5501 12.13 13.6001 12.12C13.6401 12.12 13.7101 12.1 13.7701 12.02L16.0801 9.04001C16.3301 8.71001 16.8101 8.65001 17.1301 8.91001C17.4601 9.16001 17.5201 9.63001 17.2601 9.96001L14.9501 12.94C14.6601 13.31 14.2501 13.55 13.7801 13.6C13.3101 13.66 12.8501 13.53 12.4801 13.24L10.6501 11.8C10.5801 11.74 10.5001 11.74 10.4601 11.75C10.4201 11.75 10.3501 11.77 10.2901 11.85L7.91011 14.94C7.78011 15.14 7.56011 15.24 7.33011 15.24Z" fill="#77778B"/>
+                        </svg>
+                        <p class="header-link__text">Activity</p>
+                    </a>
+                    <a href="#" class="header-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M20 3H4C2.89543 3 2 3.89543 2 5V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V5C22 3.89543 21.1046 3 20 3Z" fill="#77778B"/>
+                            <path d="M2.29002 17L7.00002 12.29C7.09298 12.1963 7.20358 12.1219 7.32544 12.0711C7.4473 12.0203 7.578 11.9942 7.71002 11.9942C7.84203 11.9942 7.97273 12.0203 8.09459 12.0711C8.21645 12.1219 8.32705 12.1963 8.42002 12.29L10.51 14.39L14.58 10.31C14.673 10.2163 14.7836 10.1419 14.9054 10.0911C15.0273 10.0403 15.158 10.0142 15.29 10.0142C15.422 10.0142 15.5527 10.0403 15.6746 10.0911C15.7965 10.1419 15.9071 10.2163 16 10.31L21.71 16C21.8027 16.0934 21.876 16.2043 21.9258 16.3261C21.9756 16.4479 22.0008 16.5784 22 16.71V19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0392 20.7893 20.5304 21 20 21H4.00002C3.46958 21 2.96088 20.7893 2.5858 20.4142C2.21073 20.0391 2.00002 19.5304 2.00002 19V17.71C1.99926 17.5784 2.02448 17.4479 2.07425 17.3261C2.12401 17.2043 2.19734 17.0934 2.29002 17ZM7.50002 7.5C7.50002 7.79667 7.58799 8.08668 7.75281 8.33335C7.91763 8.58003 8.1519 8.77229 8.42599 8.88582C8.70008 8.99935 9.00168 9.02906 9.29265 8.97118C9.58362 8.9133 9.8509 8.77044 10.0607 8.56066C10.2705 8.35088 10.4133 8.08361 10.4712 7.79264C10.5291 7.50166 10.4994 7.20006 10.3858 6.92597C10.2723 6.65189 10.08 6.41762 9.83337 6.2528C9.5867 6.08797 9.29669 6 9.00002 6C8.60219 6 8.22066 6.15804 7.93936 6.43934C7.65805 6.72064 7.50002 7.10218 7.50002 7.5Z" fill="#77778B"/>
+                        </svg>
+                        <p class="header-link__text">Ai images</p>
+                    </a>
+                    <a href="#" class="header-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M2 10.8889C2 6.69862 2 4.6035 3.30174 3.30174C4.6035 2 6.69862 2 10.8889 2H13.1111C17.3013 2 19.3966 2 20.6982 3.30174C22 4.6035 22 6.69862 22 10.8889V13.1111C22 17.3013 22 19.3966 20.6982 20.6982C19.3966 22 17.3013 22 13.1111 22H10.8889C6.69862 22 4.6035 22 3.30174 20.6982C2 19.3966 2 17.3013 2 13.1111V10.8889Z" fill="#77778B"/>
+                            <path d="M17.5554 7.55523C18.1691 7.55523 18.6666 7.05777 18.6666 6.44412C18.6666 5.83047 18.1691 5.33301 17.5554 5.33301C16.9418 5.33301 16.4443 5.83047 16.4443 6.44412C16.4443 7.05777 16.9418 7.55523 17.5554 7.55523Z" fill="#77778B"/>
+                            <path d="M12.0003 15.3337C13.8413 15.3337 15.3337 13.8413 15.3337 12.0003C15.3337 10.1594 13.8413 8.66699 12.0003 8.66699C10.1594 8.66699 8.66699 10.1594 8.66699 12.0003C8.66699 13.8413 10.1594 15.3337 12.0003 15.3337Z" fill="#77778B"/>
+                        </svg>
+                        <p class="header-link__text">Photos</p>
+                    </a>
+                    <a href="#" class="header-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z" fill="#77778B"/>
+                            <path d="M9.09961 11.9995V10.5195C9.09961 8.6095 10.4496 7.8395 12.0996 8.7895L13.3796 9.5295L14.6596 10.2695C16.3096 11.2195 16.3096 12.7795 14.6596 13.7295L13.3796 14.4695L12.0996 15.2095C10.4496 16.1595 9.09961 15.3795 9.09961 13.4795V11.9995Z" fill="#77778B"/>
+                        </svg>
+                        <p class="header-link__text">Videos</p>
+                    </a>
+                    <a href="#" class="header-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M18 3H6C4.89543 3 4 3.89543 4 5V19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19V5C20 3.89543 19.1046 3 18 3Z" fill="#77778B"/>
+                            <path d="M8.5 6.5H15.5" stroke="#77778B" stroke-linecap="round"/>
+                            <path d="M8.5 9.5H12.5" stroke="#77778B" stroke-linecap="round"/>
+                            <path d="M8.5 12.5H14.5" stroke="#77778B" stroke-linecap="round"/>
+                            <path d="M4 19C4 17.8954 4.89543 17 6 17H17C17.9319 17 18.3978 17 18.7654 16.8478C19.2554 16.6448 19.6448 16.2554 19.8478 15.7654C20 15.3978 20 14.9319 20 14V17C20 18.8856 20 19.8284 19.4142 20.4142C18.8284 21 17.8856 21 16 21H6C4.89543 21 4 20.1046 4 19Z" fill="#77778B"/>
+                        </svg>
+                        <p class="header-link__text">Posts</p>
+                    </a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End  header-->
+    <div class="menu">
+        <div class="menu-close">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 1L1 15M15 15L1 1" stroke="#F37A10"/>
+            </svg>
+        </div>
+        <div class="menu-item">
+            <div class="d-flex justify-content-start">
+                <a href="#" class="my-accounts d-flex align-items-center justify-content-center">
+                    <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87207 9C10.0812 9 11.8721 7.20914 11.8721 5C11.8721 2.79086 10.0812 1 7.87207 1C5.66293 1 3.87207 2.79086 3.87207 5C3.87207 7.20914 5.66293 9 7.87207 9Z" stroke="#F37A10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path opacity="0.4" d="M14.744 17.0004C14.744 13.9044 11.664 11.4004 7.87203 11.4004C4.07999 11.4004 1 13.9044 1 17.0004" stroke="#F37A10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    My Accounts
+                </a>
+            </div>
+            <ul class="menu-item-box d-flex justify-content-between align-items-center flex-column">
+                <li class="header-item__list"><a href="#" class="">VTL Token</a></li>
+                <li class="header-item__list"><a href="#" class="">Abou Us</a></li>
+                <li class="header-item__list"><a href="#" class="">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="images">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-10 pl-5 d-flex justify-content-between flex-wrap">
+                   <div style="width: 33%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i1.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end align-items-lg-center justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column flex-lg-row">
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div style="width: 32%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i2.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end align-items-lg-center justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column flex-lg-row">
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div style="width: 34%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i3.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end align-items-lg-center justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column flex-lg-row">
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div style="width: 20.5%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i4.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column">
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div style="width: 26%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i5.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column">
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div style="width: 15%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i6.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column">
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div style="width: 37%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i7.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end align-items-lg-center justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column flex-lg-row">
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div style="width: 33%" class="images-card position-relative">
+                        <img loading="lazy" src="../assets/imgs/png/i8.png" alt="" class="images-card__img position-absolute">
+                        <div class="images-card-info">
+                            <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                                <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="d-flex align-items-end align-items-lg-center justify-content-between mt-2">
+                                <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                    <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                    <p class="">Admin</p>
+                                </a>
+                                <div class="d-flex align-items-start flex-column flex-lg-row">
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                            <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">366</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center mr-0 mr-lg-3">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                            <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#)">
+                                            <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                        </svg>
+                                        <span class="">12</span>
+                                    </div>
+                                    <div class="images-card-info-box d-flex align-items-center">
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                            <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                        </svg>
+                                        <span class="">63</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                  <div style="width: 17%" class="images-card position-relative">
+                       <img loading="lazy" src="../assets/imgs/png/i9.png" alt="" class="images-card__img position-absolute">
+                       <div class="images-card-info">
+                           <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                               <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                               </svg>
+                           </a>
+                           <div class="d-flex align-items-end justify-content-between mt-2">
+                               <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                   <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                   <p class="">Admin</p>
+                               </a>
+                               <div class="d-flex align-items-start flex-column">
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                           <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                       </svg>
+                                       <span class="">366</span>
+                                   </div>
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                           <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                           </mask>
+                                           <g mask="url(#)">
+                                           <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </g>
+                                       </svg>
+                                       <span class="">12</span>
+                                   </div>
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                           <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                       </svg>
+                                       <span class="">63</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                  </div>
+                  <div style="width: 15%" class="images-card position-relative">
+                       <img loading="lazy" src="../assets/imgs/png/i10.png" alt="" class="images-card__img position-absolute">
+                       <div class="images-card-info">
+                           <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                               <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                               </svg>
+                           </a>
+                           <div class="d-flex align-items-end justify-content-between mt-2">
+                               <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                   <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                   <p class="">Admin</p>
+                               </a>
+                               <div class="d-flex align-items-start flex-column">
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                           <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                       </svg>
+                                       <span class="">366</span>
+                                   </div>
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                           <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                           </mask>
+                                           <g mask="url(#)">
+                                           <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </g>
+                                       </svg>
+                                       <span class="">12</span>
+                                   </div>
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                           <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                       </svg>
+                                       <span class="">63</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                  </div>
+                  <div style="width: 15%" class="images-card position-relative">
+                       <img loading="lazy" src="../assets/imgs/png/i11.png" alt="" class="images-card__img position-absolute">
+                       <div class="images-card-info">
+                           <a href="#" class="images-card__link d-flex justify-content-between align-items-start">
+                               <p class="images-card-info__title">He's a bit of a nerd, and Bear finds joy in reading a good book.</p>
+                               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                               </svg>
+                           </a>
+                           <div class="d-flex align-items-end justify-content-between mt-2">
+                               <a href="#" class="images-card-info-admin d-flex align-items-center">
+                                   <img loading="lazy" src="../assets/imgs/png/admin.png" alt="" class="">
+                                   <p class="">Admin</p>
+                               </a>
+                               <div class="d-flex align-items-start flex-column">
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path opacity="0.4" d="M13.4579 7.28953C13.7167 7.60373 13.8461 7.7608 13.8461 8C13.8461 8.2392 13.7167 8.39627 13.4579 8.71047C12.5111 9.85993 10.423 12 7.99919 12C5.57537 12 3.48723 9.85993 2.5405 8.71047C2.28173 8.39627 2.15234 8.2392 2.15234 8C2.15234 7.7608 2.28173 7.60373 2.5405 7.28953C3.48723 6.14009 5.57537 4 7.99919 4C10.423 4 12.5111 6.14009 13.4579 7.28953Z" fill="#CBCBCB"/>
+                                           <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" fill="#CBCBCB"/>
+                                       </svg>
+                                       <span class="">366</span>
+                                   </div>
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <mask id="" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="12">
+                                           <path d="M13.4997 0.75H0.5V11.4997H13.4997V0.75Z" fill="white"/>
+                                           </mask>
+                                           <g mask="url(#)">
+                                           <path opacity="0.4" d="M1 9.5V9.875C1 10.1734 1.11853 10.4595 1.3295 10.6705C1.54047 10.8815 1.82662 11 2.125 11H11.875C12.1734 11 12.4595 10.8815 12.6705 10.6705C12.8815 10.4595 13 10.1734 13 9.875V9.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M7 8V1.25" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M4.75 6.5L7.00025 8L9.25 6.5" stroke="#CBCBCB" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </g>
+                                       </svg>
+                                       <span class="">12</span>
+                                   </div>
+                                   <div class="images-card-info-box d-flex align-items-center">
+                                       <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12836 2.03004C9.30137 1.20916 8.76891 0.356449 7.99056 0.0922431C7.61303 -0.046706 7.21335 -0.0155985 6.88044 0.0988439C6.54862 0.212911 6.23111 0.427569 6.0343 0.722278L6.03372 0.723118L3.71614 4.17122C4.07004 4.3578 4.31129 4.72934 4.31129 5.15726V12H3.34375H9.56273C10.5899 12 11.1685 11.3609 11.6087 10.6634C12.0912 9.89886 12.405 9.08423 12.6381 8.35864C12.7458 8.02344 12.8378 7.70244 12.9202 7.41479L12.9403 7.34458C13.0292 7.03433 13.1054 6.77316 13.182 6.55961C13.3933 5.97037 13.3267 5.38348 12.9917 4.93791C12.6611 4.49832 12.1219 4.26608 11.5232 4.26608H8.97706C8.9199 4.26608 8.87629 4.24297 8.84969 4.21279C8.82671 4.18677 8.8008 4.13803 8.81283 4.04963L9.12836 2.03004Z" fill="#CBCBCB"/>
+                                           <path opacity="0.4" d="M0.333008 5.20066C0.333008 4.82517 0.617997 4.52075 0.969542 4.52075H3.19741C3.54896 4.52075 3.83395 4.82517 3.83395 5.20066V12.0001H0.969542C0.617997 12.0001 0.333008 11.6956 0.333008 11.3201V5.20066Z" fill="#CBCBCB"/>
+                                       </svg>
+                                       <span class="">63</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                  </div>
+                  <div style="width: 18%" class="all-img images-card position-relative">
+                       <img loading="lazy" src="../assets/imgs/png/i-all.png" alt="" class="images-card__img position-absolute">
+                      <div class="all-img-info">
+                           <p class="all-img__sup">Category</p>
+                           <p class="all-img__sub">AI images</p>
+                      </div>
+                      <a href="#" class="view-more">
+                           <span class="mr-3">View more</span>
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#F1F1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                           </svg>
+                      </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End images -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-4 col-sm-6 d-flex flex-column justify-content-between">
+                    <div class="">
+                        <div class="d-flex align-items-center">
+                            <a href="#" class="header__logo">
+                                <img loading="lazy" src="../assets/imgs/png/logo.png" alt="" class="">
+                            </a>
+                            <div class="header-lang">
+                                <div class="avtive-lang d-flex align-items-center justify-content-center">
+                                    <img loading="lazy" src="../assets/imgs/png/USA.png" alt="ru" class="">
+                                </div>
+                                <ul class="header-lang-item">
+                                    <li class="">
+                                        <a href="#">
+                                            <img loading="lazy" src="../assets/imgs/png/USA.png" alt="usa" class="">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">
+                                            <img loading="lazy" src="../assets/imgs/png/russia.png" alt="rus" class="">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">
+                                            <img loading="lazy" src="../assets/imgs/png/france.png" alt="fr" class="">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#">
+                                            <img loading="lazy" src="../assets/imgs/png/germany.png" alt="gr" class="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-icon mt-4 d-none d-md-flex">
+                            <a href="#" class="">
+                                <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.38699 3.8756H11.3345V0.483596C10.9985 0.437374 9.84299 0.333374 8.49721 0.333374C5.68921 0.333374 3.76566 2.0996 3.76566 5.34582V8.33337H0.666992V12.1254H3.76566V21.6667H7.56477V12.1263H10.5381L11.0101 8.33426H7.56388V5.72182C7.56477 4.62582 7.85988 3.8756 9.38699 3.8756Z" fill="#77778B"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="footer-icon">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.0041 5.52197C7.97916 5.52197 5.53027 7.97353 5.53027 10.9958C5.53027 14.0206 7.98183 16.4695 11.0041 16.4695C14.0289 16.4695 16.4778 14.018 16.4778 10.9958C16.4778 7.97086 14.0263 5.52197 11.0041 5.52197ZM11.0041 14.5486C9.0405 14.5486 7.45116 12.9584 7.45116 10.9958C7.45116 9.03309 9.04139 7.44286 11.0041 7.44286C12.9667 7.44286 14.5569 9.03309 14.5569 10.9958C14.5578 12.9584 12.9676 14.5486 11.0041 14.5486Z" fill="#77778B"/>
+                                    <path d="M15.3991 0.40014C13.4364 0.308585 8.57508 0.313029 6.61063 0.40014C4.88441 0.481029 3.36174 0.897918 2.13419 2.12547C0.0826307 4.17703 0.344853 6.94148 0.344853 10.9957C0.344853 15.145 0.113742 17.8455 2.13419 19.8659C4.19374 21.9246 6.99819 21.6553 11.0044 21.6553C15.1146 21.6553 16.5333 21.6579 17.9866 21.0953C19.9626 20.3281 21.4542 18.5619 21.6 15.3895C21.6924 13.4259 21.6871 8.56548 21.6 6.60103C21.424 2.85614 19.4142 0.585029 15.3991 0.40014ZM18.5057 18.5086C17.1609 19.8535 15.2951 19.7335 10.9786 19.7335C6.53419 19.7335 4.75197 19.7993 3.45152 18.4953C1.95374 17.0046 2.22485 14.6108 2.22485 10.9815C2.22485 6.07036 1.72085 2.53347 6.64974 2.28103C7.78219 2.24103 8.11552 2.2277 10.9662 2.2277L11.0062 2.25436C15.7431 2.25436 19.4595 1.75836 19.6826 6.68636C19.7333 7.81081 19.7449 8.14859 19.7449 10.9948C19.744 15.3877 19.8275 17.1806 18.5057 18.5086Z" fill="#77778B"/>
+                                    <path d="M16.6951 6.58532C17.4016 6.58532 17.9742 6.01264 17.9742 5.30621C17.9742 4.59978 17.4016 4.0271 16.6951 4.0271C15.9887 4.0271 15.416 4.59978 15.416 5.30621C15.416 6.01264 15.9887 6.58532 16.6951 6.58532Z" fill="#77778B"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="footer-sub__text d-none d-md-flex">© Vitalentum 2022.  All rights are reserved</p>
+                </div>
+                <div class="col-lg-4 col-sm-5 px-lg-5 d-flex justify-content-start justify-content-sm-between my-5 my-sm-0">
+                    <ul class="footer-item mr-5 mr-sm-0">
+                        <li class="footer-item__list"><a href="#">Blog</a></li>
+                        <li class="footer-item__list"><a href="#">VTL token</a></li>
+                        <li class="footer-item__list"><a href="#">Abou us</a></li>
+                        <li class="footer-item__list"><a href="#">Terms of Service</a></li>
+                        <li class="footer-item__list"><a href="#">Contacts</a></li>
+                    </ul>
+                    <ul class="footer-item">
+                        <li class="footer-item__list"><a href="#">Activity</a></li>
+                        <li class="footer-item__list"><a href="#">All images</a></li>
+                        <li class="footer-item__list"><a href="#">Photos</a></li>
+                        <li class="footer-item__list"><a href="#">Videos</a></li>
+                        <li class="footer-item__list"><a href="#">Posts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 pl-lg-5">
+                    <p class="footer__title">Newsletter</p>
+                    <p class="footer__text">Subscribe to the Vitalentum newsletter to get your weekly dose of news, updates, tips and special offers.</p>
+                    <form class="subscribe">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="5.33333" fill="#191B46"/>
+                            <g clip-path="url(#clip0_153_43030)">
+                            <path d="M11.9495 13.4705C11.514 13.4705 11.0816 13.33 10.721 13.0506L4.56768 7.84316C4.2867 7.60589 4.25236 7.18442 4.48963 6.90501C4.7269 6.62403 5.14836 6.58969 5.42778 6.82696L11.5593 12.0156C11.7841 12.1889 12.129 12.1889 12.3772 11.9969L18.5618 6.82384C18.8444 6.58813 19.2643 6.62403 19.5 6.90813C19.7357 7.19067 19.6982 7.61057 19.4157 7.84628L13.2108 13.035C12.8346 13.3269 12.3897 13.4705 11.9495 13.4705Z" fill="#5F6379"/>
+                            <path d="M17.9676 18.6592H6.0199C4.90693 18.6592 4 17.7538 4 16.6393V8.02271C4 6.90973 4.90537 6.00281 6.0199 6.00281H17.9676C19.0806 6.00281 19.9875 6.90817 19.9875 8.02271V16.6409C19.9875 17.7538 19.0806 18.6592 17.9676 18.6592ZM6.0199 7.33588C5.64059 7.33588 5.33307 7.64495 5.33307 8.02271V16.6409C5.33307 17.0202 5.64215 17.3277 6.0199 17.3277H17.9676C18.3469 17.3277 18.6544 17.0186 18.6544 16.6409V8.02271C18.6544 7.64339 18.3454 7.33588 17.9676 7.33588H6.0199Z" fill="#77778B"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_153_43030">
+                            <rect width="16" height="16" fill="white" transform="translate(4 4)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <input type="email" class="subscribe__inp" placeholder="Email" required>
+                        <button type="submit" class="subscribe__btn">subscribe</button>
+                    </form>
+                </div>
+                <div class="col-12 d-md-none mt-5">
+                    <div class="footer-icon">
+                        <a href="#" class="">
+                            <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.38699 3.8756H11.3345V0.483596C10.9985 0.437374 9.84299 0.333374 8.49721 0.333374C5.68921 0.333374 3.76566 2.0996 3.76566 5.34582V8.33337H0.666992V12.1254H3.76566V21.6667H7.56477V12.1263H10.5381L11.0101 8.33426H7.56388V5.72182C7.56477 4.62582 7.85988 3.8756 9.38699 3.8756Z" fill="#77778B"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-icon">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.0041 5.52197C7.97916 5.52197 5.53027 7.97353 5.53027 10.9958C5.53027 14.0206 7.98183 16.4695 11.0041 16.4695C14.0289 16.4695 16.4778 14.018 16.4778 10.9958C16.4778 7.97086 14.0263 5.52197 11.0041 5.52197ZM11.0041 14.5486C9.0405 14.5486 7.45116 12.9584 7.45116 10.9958C7.45116 9.03309 9.04139 7.44286 11.0041 7.44286C12.9667 7.44286 14.5569 9.03309 14.5569 10.9958C14.5578 12.9584 12.9676 14.5486 11.0041 14.5486Z" fill="#77778B"/>
+                                <path d="M15.3991 0.40014C13.4364 0.308585 8.57508 0.313029 6.61063 0.40014C4.88441 0.481029 3.36174 0.897918 2.13419 2.12547C0.0826307 4.17703 0.344853 6.94148 0.344853 10.9957C0.344853 15.145 0.113742 17.8455 2.13419 19.8659C4.19374 21.9246 6.99819 21.6553 11.0044 21.6553C15.1146 21.6553 16.5333 21.6579 17.9866 21.0953C19.9626 20.3281 21.4542 18.5619 21.6 15.3895C21.6924 13.4259 21.6871 8.56548 21.6 6.60103C21.424 2.85614 19.4142 0.585029 15.3991 0.40014ZM18.5057 18.5086C17.1609 19.8535 15.2951 19.7335 10.9786 19.7335C6.53419 19.7335 4.75197 19.7993 3.45152 18.4953C1.95374 17.0046 2.22485 14.6108 2.22485 10.9815C2.22485 6.07036 1.72085 2.53347 6.64974 2.28103C7.78219 2.24103 8.11552 2.2277 10.9662 2.2277L11.0062 2.25436C15.7431 2.25436 19.4595 1.75836 19.6826 6.68636C19.7333 7.81081 19.7449 8.14859 19.7449 10.9948C19.744 15.3877 19.8275 17.1806 18.5057 18.5086Z" fill="#77778B"/>
+                                <path d="M16.6951 6.58532C17.4016 6.58532 17.9742 6.01264 17.9742 5.30621C17.9742 4.59978 17.4016 4.0271 16.6951 4.0271C15.9887 4.0271 15.416 4.59978 15.416 5.30621C15.416 6.01264 15.9887 6.58532 16.6951 6.58532Z" fill="#77778B"/>
+                            </svg>
+                        </a>
+                    </div>
+                <p class="footer-sub__text mt-3">© Vitalentum 2022.  All rights are reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/header.js"></script>
+</body>
+</html>
