@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/style/plugins/bootstrap4.css">
+    <link rel="stylesheet" href="../assets/style/css/main.css">
+</head>
+<body>
+
+    <div class="logIn">
+        <div class="logIn-item">
+            <div class="logIn-head d-flex align-items-center justify-content-between">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/imgs/png/logo.png" alt="">
+                </a>
+                <a href="../index.html" class="close">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.3333 1.66675L1 19.0001" stroke="#77778B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1 1.66675L18.3333 19.0001" stroke="#77778B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </a>
+            </div>
+            <p class="logIn__title">Log in</p>
+            <form class="">
+                <div class="logIn-list">
+                    <input type="email" name="email" id="email" class="logIn-list__inp icon_inp" required>
+                    <label for="email" class="logIn-list__lab icon_lab">Email</label>
+                    <span class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M20 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V6C22 4.89543 21.1046 4 20 4Z" fill="#77778B"/>
+                            <path d="M20 4H4C3.46957 4 2.96086 4.21071 2.58579 4.58579C2.21071 4.96086 2 5.46957 2 6V8C2.00031 8.1772 2.04769 8.35113 2.1373 8.504C2.22691 8.65686 2.35553 8.78317 2.51 8.87L11.51 13.87C11.662 13.9578 11.8345 14.004 12.01 14.004C12.1855 14.004 12.358 13.9578 12.51 13.87L21.51 8.87C21.6607 8.78063 21.7854 8.65322 21.8714 8.50053C21.9574 8.34784 22.0017 8.17523 22 8V6C22 5.46957 21.7893 4.96086 21.4142 4.58579C21.0391 4.21071 20.5304 4 20 4Z" fill="#77778B"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="logIn-list">
+                    <input type="password" name="Password" id="Password" class="logIn-list__inp icon_inp" required>
+                    <label for="Password" class="logIn-list__lab icon_lab">Password</label>
+                    <span class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M19.7906 4.22007C16.8306 1.27007 12.0306 1.27007 9.09063 4.22007C7.02063 6.27007 6.40063 9.22007 7.20063 11.8201L2.50063 16.5201C2.17063 16.8601 1.94063 17.5301 2.01063 18.0101L2.31063 20.1901C2.42063 20.9101 3.09063 21.5901 3.81063 21.6901L5.99063 21.9901C6.47063 22.0601 7.14063 21.8401 7.48063 21.4901L8.30063 20.6701C8.50063 20.4801 8.50063 20.1601 8.30063 19.9601L6.36063 18.0201C6.07063 17.7301 6.07063 17.2501 6.36063 16.9601C6.65063 16.6701 7.13063 16.6701 7.42063 16.9601L9.37064 18.9101C9.56064 19.1001 9.88063 19.1001 10.0706 18.9101L12.1906 16.8001C14.7806 17.6101 17.7306 16.9801 19.7906 14.9301C22.7406 11.9801 22.7406 7.17007 19.7906 4.22007ZM14.5006 12.0001C13.1206 12.0001 12.0006 10.8801 12.0006 9.50007C12.0006 8.12007 13.1206 7.00007 14.5006 7.00007C15.8806 7.00007 17.0006 8.12007 17.0006 9.50007C17.0006 10.8801 15.8806 12.0001 14.5006 12.0001Z" fill="#77778B"/>
+                            <path d="M14.5 12C15.8807 12 17 10.8807 17 9.5C17 8.11929 15.8807 7 14.5 7C13.1193 7 12 8.11929 12 9.5C12 10.8807 13.1193 12 14.5 12Z" fill="#77778B"/>
+                        </svg>
+                    </span>
+                    <div class="eyes">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M2.28282 9.27342C4.69299 5.94267 8.19618 3.96997 12.0001 3.96997C15.8042 3.96997 19.3075 5.94286 21.7177 9.27392C22.2793 10.0479 22.5351 11.0421 22.5351 11.995C22.5351 12.948 22.2792 13.9424 21.7174 14.7165C19.3072 18.0473 15.804 20.02 12.0001 20.02C8.19599 20.02 4.69264 18.0471 2.28246 14.716C1.7209 13.942 1.46509 12.9478 1.46509 11.995C1.46509 11.0419 1.721 10.0475 2.28282 9.27342Z" fill="#CBCBCB"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9997 8.00024C9.7881 8.00024 7.99976 9.78859 7.99976 12.0002C7.99976 14.2119 9.7881 16.0002 11.9997 16.0002C14.2115 16.0002 15.9998 14.2119 15.9998 12.0002C15.9998 9.78859 14.2115 8.00024 11.9997 8.00024Z" fill="#0C0D29"/>
+                            <path d="M14.8599 11.995C14.8599 13.5768 13.5816 14.855 11.9999 14.855C10.4181 14.855 9.13989 13.5768 9.13989 11.995C9.13989 10.4132 10.4181 9.13501 11.9999 9.13501C13.5816 9.13501 14.8599 10.4132 14.8599 11.995Z" fill="#CBCBCB"/>
+                        </svg>
+                        <span class="showPass">/</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between mt-4">
+                    <div class="logIn-check d-flex align-items-center">
+                        <input type="checkbox" id="check" class="d-flex justify-content-center align-items-center" name="Keep me logged in" checked>
+                        <label for="check" class="">Keep me logged in</label>
+                    </div>
+                    <a href="#" class="forgot">Forgot  password?</a>
+                </div>
+
+                <button class="logIn__btn">Login</button>
+                <a href="./registration.html" class="create-account">Create account</a>
+            </form>
+
+        </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/form.js"></script>
+</body>
+</html>

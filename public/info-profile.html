@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info profile</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/style/plugins/bootstrap4.css">
+    <link rel="stylesheet" href="../assets/style/css/main.css">
+</head>
+<body>
+
+    <div class="info-profile d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-8 col-md-10 ">
+                   <div class="info">
+                    <div class="info-head d-flex align-items-center justify-content-between">
+                        <a href="../index.html" class="logo">
+                            <img src="../assets/imgs/png/logo.png" alt="">
+                        </a>
+                        <a href="../index.html" class="close">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.3333 1.66675L1 19.0001" stroke="#77778B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 1.66675L18.3333 19.0001" stroke="#77778B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                        
+                        </a>
+                    </div>
+                    <div class="info-body">
+                        <p class="info-body__title">Let's set up your artist profile!</p>
+                        <p class="info-body__text">You can skip the step and fill in the information later.</p>
+                        <form class="form-profile d-flex align-items-center align-items-md-start flex-column flex-md-row">
+                            <div class="avatar">
+                                <p class="info-body__title-sub text-center text-md-left">Avatar</p>
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="avatar-item">
+                                        <div class="add_avatar">
+                                            <input type="file" id="userAvatar" accept=".png, .jpg, .jpeg" name="user-avatar">
+                                            <img class="avatar__img" src="../assets/imgs/png/admin.png" alt="">
+                                            <div class="middle">
+                                                <img src="../assets/imgs/png/img.png" alt="">
+                                                <p class="">Upload Avatar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="avatar__text">Allowed *.jpeg, *.jpg, *.png, <br>
+                                        Max size of 3.1 MB</p>
+                                        <label for="userAvatar" class="change-avatar d-none align-items-center pointer justify-content-center">
+                                            <svg class="mr-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <mask id="mask0_153_47893" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="1" y="3" width="18" height="14">
+                                                <path d="M18.1247 3.4375H1.875V16.8747H18.1247V3.4375Z" fill="white"/>
+                                                </mask>
+                                                <g mask="url(#mask0_153_47893)">
+                                                <path opacity="0.4" d="M2.5 14.375V14.8438C2.5 15.2167 2.64816 15.5744 2.91188 15.8381C3.17559 16.1018 3.53328 16.25 3.90625 16.25H16.0938C16.4667 16.25 16.8244 16.1018 17.0881 15.8381C17.3518 15.5744 17.5 15.2167 17.5 14.8438V14.375" stroke="#F1F1F1" stroke-width="1.04167" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M10 4.0625V12.5" stroke="#F1F1F1" stroke-width="1.04167" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M12.8125 5.9375L9.99969 4.0625L7.1875 5.9375" stroke="#F1F1F1" stroke-width="1.04167" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </g>
+                                            </svg>
+                                            Change new avatar
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="basic-profile-info">
+                                <p class="info-body__title-sub">Basic Profile Info</p>
+                                <div class="form-list">
+                                    <input type="text" name="A few words about you" id="about" class="form-list__inp" required>
+                                    <label for="about" class="form-list__lab">A few words about you</label>
+                                </div>
+                                <div class="form-list">
+                                    <input type="text" name="Your site (not nessesery)" id="your-site" class="form-list__inp" required>
+                                    <label for="your-site" class="form-list__lab">Your site (not nessesery)</label>
+                                </div>
+                                <div class="form-list">
+                                    <input type="text" name="phone" id="phone" class="form-list__inp icon_inp inp_prof" required>
+                                    <label for="phone" class="form-list__lab icon_lab lab_prof">Phone number (not nessesery)</label>
+                                    <span class="icon">
+                                        <svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M9.6 0H2.4C1.07452 0 0 1.07452 0 2.4V18C0 19.3255 1.07452 20.4 2.4 20.4H9.6C10.9255 20.4 12 19.3255 12 18V2.4C12 1.07452 10.9255 0 9.6 0Z" fill="#77778B"/>
+                                            <path d="M6.00005 19.2C6.66279 19.2 7.20005 18.6628 7.20005 18C7.20005 17.3373 6.66279 16.8 6.00005 16.8C5.33731 16.8 4.80005 17.3373 4.80005 18C4.80005 18.6628 5.33731 19.2 6.00005 19.2Z" fill="#77778B"/>
+                                            <path d="M2.3999 1.35671C2.3999 1.27028 2.46998 1.2002 2.55642 1.2002H9.44342C9.52982 1.2002 9.5999 1.27028 9.5999 1.35671C9.5999 1.93301 9.13274 2.4002 8.55638 2.4002H3.44339C2.86709 2.4002 2.3999 1.93301 2.3999 1.35671Z" fill="#77778B"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="form-list select-item">
+                                    <input type="text" name="country" id="country" class="form-list__inp icon_inp inp_prof selected" required>
+                                    <label for="country" class="form-list__lab icon_lab lab_prof">Country</label>
+                                    <span class="icon">
+                                        <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.4" d="M16.6431 6.37195C15.6445 1.97816 11.8118 0 8.44518 0C8.44518 0 8.44518 0 8.43567 0C5.07852 0 1.23633 1.96865 0.237739 6.36244C-0.874975 11.2698 2.1303 15.4258 4.85027 18.0412C5.85837 19.0112 7.15176 19.4963 8.44518 19.4963C9.73859 19.4963 11.032 19.0112 12.0306 18.0412C14.7506 15.4258 17.7558 11.2793 16.6431 6.37195Z" fill="#77778B"/>
+                                            <path d="M8.44571 11.1371C10.1002 11.1371 11.4415 9.79583 11.4415 8.14131C11.4415 6.48676 10.1002 5.14551 8.44571 5.14551C6.79119 5.14551 5.44995 6.48676 5.44995 8.14131C5.44995 9.79583 6.79119 11.1371 8.44571 11.1371Z" fill="#77778B"/>
+                                        </svg>
+                                    </span>
+                                    <span class="down">
+                                        <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14 1L8.649 6.351C8.01705 6.98295 6.98296 6.98295 6.35102 6.351L1 1" stroke="#77778B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                    <ul class="select d-none">
+                                        <li class="select-list">Uzbekistan</li>
+                                        <li class="select-list">Ukraina</li>
+                                        <li class="select-list">Kazakstan</li>
+                                        <li class="select-list">China</li>
+                                        <li class="select-list">USA</li>
+                                        <li class="select-list">BAA</li>
+                                    </ul>
+                                </div>
+                                <div class="form-list select-item">
+                                    <input type="text" name="city" id="city" class="form-list__inp selected" required>
+                                    <label for="city" class="form-list__lab">City</label>
+                                    <span class="icon"></span>
+                                    <span class="down">
+                                        <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14 1L8.649 6.351C8.01705 6.98295 6.98296 6.98295 6.35102 6.351L1 1" stroke="#77778B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                    <ul class="select d-none">
+                                        <li class="select-list">Tashkent</li>
+                                        <li class="select-list">Kiev</li>
+                                        <li class="select-list">Astana</li>
+                                        <li class="select-list">Pekin</li>
+                                        <li class="select-list">Vashington</li>
+                                        <li class="select-list">Abu-dabi</li>
+                                    </ul>
+                                </div>
+                                <div class="date d-flex align-items-center justify-content-between">
+                                    <div class="form-list select-item">
+                                        <input type="text" name="mounth" id="mounth" class="form-list__inp selected" maxlength="9" required>
+                                        <label for="mounth" class="form-list__lab">Mounth</label>
+                                        <span class="icon"></span>
+                                        <span class="down">
+                                            <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14 1L8.649 6.351C8.01705 6.98295 6.98296 6.98295 6.35102 6.351L1 1" stroke="#77778B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                        <ul class="select d-none">
+                                            <li class="select-list">January</li>
+                                            <li class="select-list">February</li>
+                                            <li class="select-list">March</li>
+                                            <li class="select-list">April</li>
+                                            <li class="select-list">May</li>
+                                            <li class="select-list">June</li>
+                                            <li class="select-list">July</li>
+                                            <li class="select-list">August</li>
+                                            <li class="select-list">September</li>
+                                            <li class="select-list">October</li>
+                                            <li class="select-list">November</li>
+                                            <li class="select-list">December</li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-list select-item">
+                                        <input type="text" name="day" id="day" class="form-list__inp selected" maxlength="2" required>
+                                        <label for="day" class="form-list__lab">Day</label>
+                                        <span class="icon"></span>
+                                        <span class="down">
+                                            <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14 1L8.649 6.351C8.01705 6.98295 6.98296 6.98295 6.35102 6.351L1 1" stroke="#77778B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                        <ul class="select d-none">
+                                            <li class="select-list">1</li>
+                                            <li class="select-list">2</li>
+                                            <li class="select-list">3</li>
+                                            <li class="select-list">4</li>
+                                            <li class="select-list">5</li>
+                                            <li class="select-list">6</li>
+                                            <li class="select-list">7</li>
+                                            <li class="select-list">8</li>
+                                            <li class="select-list">9</li>
+                                            <li class="select-list">10</li>
+                                            <li class="select-list">11</li>
+                                            <li class="select-list">12</li>
+                                            <li class="select-list">13</li>
+                                            <li class="select-list">14</li>
+                                            <li class="select-list">15</li>
+                                            <li class="select-list">16</li>
+                                            <li class="select-list">17</li>
+                                            <li class="select-list">18</li>
+                                            <li class="select-list">19</li>
+                                            <li class="select-list">20</li>
+                                            <li class="select-list">21</li>
+                                            <li class="select-list">22</li>
+                                            <li class="select-list">23</li>
+                                            <li class="select-list">24</li>
+                                            <li class="select-list">25</li>
+                                            <li class="select-list">26</li>
+                                            <li class="select-list">27</li>
+                                            <li class="select-list">28</li>
+                                            <li class="select-list">29</li>
+                                            <li class="select-list">30</li>
+                                            <li class="select-list">31</li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-list select-item">
+                                        <input type="text" name="year" id="year" class="form-list__inp selected" maxlength="4" required>
+                                        <label for="year" class="form-list__lab">Year</label>
+                                        <span class="icon"></span>
+                                        <span class="down">
+                                            <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14 1L8.649 6.351C8.01705 6.98295 6.98296 6.98295 6.35102 6.351L1 1" stroke="#77778B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                        <ul class="select d-none">
+                                            <li class="select-list">1991</li>
+                                            <li class="select-list">1992</li>
+                                            <li class="select-list">1993</li>
+                                            <li class="select-list">1995</li>
+                                            <li class="select-list">1996</li>
+                                            <li class="select-list">1997</li>
+                                            <li class="select-list">1998</li>
+                                            <li class="select-list">2000</li>
+                                            <li class="select-list">2022</li>
+                                            <li class="select-list">2023</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="professional-summary">
+                                    <p class="professional-summary__title">professional-summary</p>
+                                    <textarea class="professional-summary" placeholder="A summary of your professional skills and experience as an artist." required></textarea>
+                                </div>
+                                <button class="continue">Continue</button>
+                            </div>
+                        </form>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/form-profile.js"></script>
+</body>
+</html>

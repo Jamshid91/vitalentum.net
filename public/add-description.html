@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New content</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/style/plugins/bootstrap4.css">
+    <link rel="stylesheet" href="../assets/style/css/main.css">
+</head>
+<body>
+    <div class="new-content add-description d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="new-content-item">
+                        <form class="create-content">
+                            <div class="create-content-head d-flex align-items-center justify-content-center">
+                                <p class="create-content__title text-center">Untitled</p>
+                            </div>
+                            <div class="create-content-body body-drag">
+                                <div class="drag-area d-flex justify-content-center align-items-center text-center">
+                                    <div class="drag-area-item">
+                                        <img src="../assets/imgs/png/drop-area.png" alt="">
+                                        <p class="drag-area-item__title"><span class="drag-area__sup-text">Drag & Drop</span> or <span class="browse">browse</span></p>
+                                        <p class="drag-area-item__text">Allowed *.jpeg, *.jpg, *.png, *.gif,*.mp4</p>
+                                    </div>
+                                    <video controls src="" class="video d-none"></video>
+                                    <img src="" class="img d-none"></img>
+                                    <button  type="button" class="delate__content d-none justify-content-center align-items-center">
+                                        <span class="mr-2">Delete</span>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.0466 3.48683C12.9733 3.38016 11.9 3.30016 10.82 3.24016V3.2335L10.6733 2.36683C10.5733 1.7535 10.4266 0.833496 8.86663 0.833496H7.11996C5.56661 0.833496 5.41994 1.7135 5.31328 2.36016L5.17328 3.2135C4.55328 3.2535 3.93328 3.2935 3.31328 3.3535L1.95328 3.48683C1.67328 3.5135 1.47328 3.76016 1.49994 4.0335C1.52661 4.30683 1.76661 4.50683 2.04661 4.48016L3.40661 4.34683C6.89996 4.00016 10.42 4.1335 13.9533 4.48683C13.9733 4.48683 13.9866 4.48683 14.0066 4.48683C14.26 4.48683 14.48 4.2935 14.5066 4.0335C14.5266 3.76016 14.3266 3.5135 14.0466 3.48683Z" fill="#F1F1F1"/>
+                                            <path opacity="0.3991" d="M12.8196 5.4265C12.6596 5.25984 12.4396 5.1665 12.213 5.1665H3.78634C3.55967 5.1665 3.333 5.25984 3.17967 5.4265C3.02634 5.59317 2.93967 5.81984 2.953 6.05317L3.36634 12.8932C3.43967 13.9065 3.533 15.1732 5.85967 15.1732H10.1396C12.4663 15.1732 12.5597 13.9132 12.633 12.8932L13.0463 6.05984C13.0596 5.81984 12.973 5.59317 12.8196 5.4265Z" fill="#F1F1F1"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.38672 11.3335C6.38672 11.0574 6.61057 10.8335 6.88673 10.8335H9.10673C9.38287 10.8335 9.60673 11.0574 9.60673 11.3335C9.60673 11.6096 9.38287 11.8335 9.10673 11.8335H6.88673C6.61057 11.8335 6.38672 11.6096 6.38672 11.3335Z" fill="#F1F1F1"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.8335 8.6665C5.8335 8.39037 6.05736 8.1665 6.3335 8.1665H9.66683C9.94296 8.1665 10.1668 8.39037 10.1668 8.6665C10.1668 8.94264 9.94296 9.1665 9.66683 9.1665H6.3335C6.05736 9.1665 5.8335 8.94264 5.8335 8.6665Z" fill="#F1F1F1"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="create-title">
+                                <p class="create-title__text">Title</p>
+                                <input type="text" class="create-title__inp" placeholder="What is your artwork called?">
+                            </div>
+                            <div class="create-description">
+                                <p class="create-description__title">Title</p>
+                                <textarea class="create-description__text" placeholder="Artwork Description"></textarea>
+                            </div>
+                            <div class="tags">
+                                <p class="tags__title">Tags</p>
+                                <div class="tags-add position-relative">
+                                    <input type="text" class="tags-add__inp" placeholder="Add tags">
+                                    <button type="button" class="tags-add__btn">Add</button>
+                                </div>
+                                <ul class="tags-item d-flex flex-wrap"></ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="successful">
+        <div class="successful-content">
+            <div class="successful-content-head d-flex align-items-center justify-content-between">
+                <a href="../index.html">
+                    <img src="../assets/imgs/png/logo.png" alt="" class="successful__logo">
+                </a>
+                    <span class="successful__close">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.3333 1.66675L1 19.0001" stroke="#77778B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1.66675L18.3333 19.0001" stroke="#77778B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+            </div>
+            <div class="successful-body">
+                <div class="d-flex align-items-center justify-content-center flex-column">
+                    <img src="../assets/imgs/png/succes.png" alt="">
+                    <p class="successful-body__title">Submission Successful</p>
+                    <p class="successful-body__text">Has been submitted to Vitalentum</p>
+                    <a href="#" class="successful-body__btn">Okay go back</a>
+                </div>
+                <div class="share">
+                    <p class="successful-body__text">Share your content</p>
+                    <div class="share-item">
+                        <input type="text" class="share__inp" value="httpss://skfb.ly/oDge">
+                        <button type="button" class="share__btn">Copy</button>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <a href="#" class="successful__icon">
+                        <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.38602 3.87547H11.3336V0.483474C10.9976 0.437252 9.84202 0.333252 8.49624 0.333252C5.68824 0.333252 3.76468 2.09947 3.76468 5.3457V8.33325H0.666016V12.1253H3.76468V21.6666H7.56379V12.1261H10.5371L11.0091 8.33414H7.56291V5.7217C7.56379 4.6257 7.8589 3.87547 9.38602 3.87547Z" fill="#77778B"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="successful__icon">
+                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.0003 18.0008V11.4079C18.0003 8.16775 17.3027 5.69263 13.5226 5.69263C11.7 5.69263 10.4849 6.68268 9.98987 7.62773H9.94487V5.98514H6.36719V18.0008H10.1024V12.038C10.1024 10.4629 10.3949 8.95529 12.33 8.95529C14.2426 8.95529 14.2651 10.7329 14.2651 12.128V17.9783H18.0003V18.0008Z" fill="#77778B"/>
+                            <path d="M0.294922 5.9856H4.03011V18.0012H0.294922V5.9856Z" fill="#77778B"/>
+                            <path d="M2.16011 0C0.96755 0 0 0.96755 0 2.16011C0 3.35267 0.96755 4.34272 2.16011 4.34272C3.35267 4.34272 4.32022 3.35267 4.32022 2.16011C4.32022 0.96755 3.35267 0 2.16011 0Z" fill="#77778B"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="successful__icon">
+                        <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23 2.21231C22.1447 2.5875 21.2333 2.83619 20.2831 2.95694C21.2606 2.37331 22.0067 1.45619 22.3574 0.35075C21.4461 0.894125 20.4398 1.27794 19.3674 1.49213C18.5021 0.570688 17.2687 0 15.9232 0C13.3127 0 11.2111 2.11888 11.2111 4.71644C11.2111 5.09019 11.2427 5.44956 11.3203 5.79169C7.40025 5.6005 3.93156 3.72169 1.60137 0.859625C1.19456 1.56544 0.955938 2.37331 0.955938 3.243C0.955938 4.876 1.79688 6.32356 3.05037 7.16162C2.29281 7.14725 1.54962 6.92731 0.92 6.58087C0.92 6.59525 0.92 6.61394 0.92 6.63262C0.92 8.924 2.55444 10.8272 4.69775 11.2657C4.31394 11.3706 3.89562 11.4209 3.4615 11.4209C3.15963 11.4209 2.85487 11.4037 2.56881 11.3404C3.17975 13.2078 4.91338 14.5806 6.97475 14.6251C5.3705 15.8801 3.33356 16.6362 1.12844 16.6362C0.74175 16.6362 0.370875 16.6189 0 16.5715C2.08869 17.9184 4.56406 18.6875 7.2335 18.6875C15.9102 18.6875 20.654 11.5 20.654 5.26988C20.654 5.06144 20.6468 4.86019 20.6367 4.66038C21.5726 3.99625 22.3589 3.16681 23 2.21231Z" fill="#77778B"/>
+                         </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../assets/js/add-description.js"></script>
+</body>
+</html>
