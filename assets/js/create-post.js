@@ -9,13 +9,13 @@ const dragArea = document.querySelector('.create-post .drag-area'),
       tagsItem = document.querySelector('.create-post .tags-item'),
       tagsAddInp = document.querySelector('.create-post .tags-add__inp'),
       publishPost = document.querySelector('.create-post .publishPost'),
-      addPost = document.getElementById('addPost'),
+      addPost = document.getElementById('addPost')
       coverImg = document.querySelector('.cover-img'),
       changeCoverImg = document.getElementById('changeCoverImg')
 
 
 
-      changeCoverImg.addEventListener('change', (e) => {
+changeCoverImg.addEventListener('change', (e) => {
         e.target.parentElement.children[1]
     if(e.target.files.length > 0) {
       let src = URL.createObjectURL(e.target.files[0]);
